@@ -13,17 +13,17 @@ class TagSeeder extends Seeder
             'name' => '質問',
         ];
         DB::table('tags')->insert($param);
-        
+
         $param = [
             'name' => '要望',
         ];
         DB::table('tags')->insert($param);
-        
+
         $param = [
             'name' => '不具合報告',
         ];
         DB::table('tags')->insert($param);
-        
+
         $param = [
             'name' => 'ご意見',
         ];

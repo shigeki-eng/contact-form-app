@@ -13,17 +13,17 @@ class CategorySeeder extends Seeder
             'content' => '商品のお届けについて',
         ];
         DB::table('categories')->insert($param);
-        
+
         $param = [
             'content' => '商品の交換について',
         ];
         DB::table('categories')->insert($param);
-        
+
         $param = [
             'content' => '商品トラブル',
         ];
         DB::table('categories')->insert($param);
-        
+
         $param = [
             'content' => 'ショップへのお問い合わせ',
         ];
